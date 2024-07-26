@@ -1,0 +1,79 @@
+.boton {
+  background-color: blueviolet;
+  padding: 12px;
+  border: solid 1px blueviolet;
+  border-radius: 5px;
+  margin: 20px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boton:hover {
+  padding: 12px;
+  margin: 20px;
+  display: inline-flex;
+  background: aliceblue;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.boton--borde {
+  border: solid 1px blueviolet;
+  background-color: #fff;
+  color: blueviolet;
+}
+
+.boton--borde:hover {
+  border: solid 1px #fff;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.boton--Clarito {
+  border: var(--Clarito);
+  background-color: var(--Clarito);
+}
+
+.boton--Azul {
+  border: var(--Azul);
+  background-color: var(--Azul);
+}
+
+.boton--Negro {
+  border: var(--Negro);
+  background-color: var(--Negro);
+}
+
+.boton--Verde {
+  border: var(--Verde);
+  background-color: var(--Verde);
+}
+
+.boton--Amarillo {
+  border: var(--Amarillo);
+  background-color: var(--Amarillo);
+}
+
+.boton--Rojo {
+  border: var(--Rojo);
+  background-color: var(--Rojo);
+}
+
+.boton--Rosado {
+  border: var(--Rosado);
+  background-color: var(--Rosado);
+}
+
+.boton--Naranja {
+  border: var(--Naranja);
+  background-color: var(--Naranja);
+}
