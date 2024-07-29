@@ -77,3 +77,39 @@
   border: var(--Naranja);
   background-color: var(--Naranja);
 }
+
+
+.btn--Pulse--Effect {
+ background-color: var(--Gris);
+ border: none;
+ padding: 12px;
+ margin: 20px;
+ cursor: pointer;
+ border-radius: 5px;
+ transition: transform 0.3s ease-in-out;
+}
+
+.btn--Pulse--Effect:hover {
+  background-color: blueviolet;
+}
+
+.btn--Pulse--Effect:active {
+  transform: scale(0.9);
+}
+
+.boton--Menta{
+  border: none;
+  color: var(--Menta);
+  padding: 12px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.boton--Menta{
+background-image: linear-gradient(to right, #007bff, #4ab2e2);}
+
+.boton--Menta:hover{
+  background-image: linear-gradient(to right, #0b7dda, #4ab2e2);
+}
