@@ -1,0 +1,23 @@
+ul.paginado {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.paginado li {display: inline;}
+ul.paginado li a {
+    color: var(--Negro);
+    float: left;
+    padding: 9px 18px;
+    text-decoration: none;
+}
+ul.paginado li a.active {
+    background-color: var(--Clarito);
+    color: var(--Blanco);
+}
+
+ul.paginado li a.active:hover {
+background-color: var(--Clarito);
+}
+ul.paginado li a:hover:not(.active) {
+    background-color: var(--Blanco);
+}

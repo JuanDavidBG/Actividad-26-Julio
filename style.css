@@ -2,7 +2,10 @@
 @import url(componentes/botones.css);
 @import url(componentes/variables.css);
 @import url(componentes/lista.css);
-
+@import url(componentes/Container.css);
+@import url(componentes/Image.css);
+@import url(componentes/Pagina.css);
+@import url(componentes/Migapan.css);
 * {
   margin: 0;
   padding: 0;
