@@ -1,0 +1,31 @@
+.menu {
+  background-color: var(--Negro);
+  color: var(--Blanco);
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+}
+
+.menu--horizontal {
+  display: flex;
+}
+
+.menu__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu__item {
+  margin-right: 20px;
+}
+
+.menu__item--active .menu__link {
+  font-weight: bold;
+}
+
+.menu__link {
+  color: var(--Blanco);
+  text-decoration: none;
+}

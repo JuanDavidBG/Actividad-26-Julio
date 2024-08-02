@@ -1,23 +1,30 @@
-ul.paginado {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-ul.paginado li {display: inline;}
-ul.paginado li a {
-    color: var(--Negro);
-    float: left;
-    padding: 9px 18px;
-    text-decoration: none;
-}
-ul.paginado li a.active {
-    background-color: var(--Clarito);
-    color: var(--Blanco);
+.pagina {
+  display: inline-block;
+  margin: 0 auto;
+  width: 1500px;
+  height: 50px;
 }
 
-ul.paginado li a.active:hover {
-background-color: var(--Clarito);
+.pagina_item {
+  display: inline-flex;
 }
-ul.paginado li a:hover:not(.active) {
-    background-color: var(--Blanco);
+
+.pagina_link {
+  color: var(--Negro);
+  float: left;
+  padding: 9px 18px;
+  text-decoration: none;
+}
+
+.pagina_link--active {
+  background-color: var(--Clarito);
+  color: var(--Blanco);
+}
+
+.pagina_link--active:hover {
+  background-color: var(--Clarito);
+}
+
+.pagina_link:hover:not(.pagination_link--active) {
+  background-color: var(--Blanco);
 }

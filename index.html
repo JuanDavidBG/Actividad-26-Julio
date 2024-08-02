@@ -9,14 +9,18 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="componentes/Pagina.css">
   </head>
   <body>
-    <ul class="MigaPan">
-      <li><a class="active" href="#">Inicio</a></li>
-      <li><a href="#">Contacto</a></li>
-      <li><a href="#">Información</a></li>
-      <li><a href="#">Servicios</a></li>
-    </ul>
+
+ <div>
+  <ul class="MigaPan">
+    <li class="MigaPan_item"><a class="MigaPan_link" href="#">Inicio</a></li>
+    <li class="MigaPan_item"><a class="MigaPan_link" href="#">Contacto</a></li>
+    <li class="MigaPan_item"><a class="MigaPan_link" href="#">Información</a></li>
+    <li class="MigaPan_item"><a class="MigaPan_link" href="#">Servicios</a></li>
+  </ul>
+</div>
     
     <button class="boton">
       <span class="boton__texto">IngressHere</span>
@@ -76,18 +80,41 @@
       <a>
 <br>
 
+<form class="form">
+  <div class="form__group">
+    <label class="form__label" for="name">Name</label>
+    <input class="form__input" type="text" id="name" name="name">
+  </div>
+  <div class="form__group">
+    <label class="form__label" for="email">Email</label>
+    <input class="form__input" type="email" id="email" name="email">
+  </div>
+  <button class="button button--primary">Send</button>
+</form>
+        
+<div>
+ <ul class="pagina">
+  <li class="pagina_item"><a href="#" class="pagina_link">«</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">1</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">2</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link--active">3</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">4</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">5</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">6</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">7</a></li>
+  <li class="pagina_item"><a href="#" class="pagina_link">»</a></li>
+</ul>
+</div>
 
-        <ul class="paginado">
-          <li><a href="#">«</a></li>
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a class="active" href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">6</a></li>
-          <li><a href="#">7</a></li>
-          <li><a href="#">»</a></li>
-        </ul>
+<div>
+<nav class="menu menu--horizontal">
+  <ul class="menu__list">
+    <li class="menu__item menu__item--active"><a href="#" class="menu__link">Inicio</a></li>
+    <li class="menu__item"><a href="#" class="menu__link">Sobre Esto</a></li>
+    <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+  </ul>
+</nav>  
+</div> 
 
 <br>
         <div class="container">
@@ -101,8 +128,8 @@
             <p>TTDS 200 RALLY EDITIÓN </p>
             <img class="img2" src="componentes/TTDSRALLY_4_2.png.webp" alt="">
          </section>
-
 </div>
+
 <ul class="Lista">
   <li class="Lista_item">
         <span class="Lista_texto">Texto</span>

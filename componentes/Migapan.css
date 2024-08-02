@@ -1,25 +1,34 @@
-ul.MigaPan {
-    padding: 8px 16px;
-    list-style: none;
-    background-color: var(--Blanco);
-    margin: 0 auto;
-}
-ul.MigaPan li {display: inline-block;}
-ul.MigaPan li+li:before {
-    padding: 8px;
-    color: var(--Negro);
-    content: "/\00a0";
-}
-ul.MigaPan a:link, ul.MigaPan a:visited {
-    text-decoration:none;
-    color: var(--Negro);
+.MigaPan {
+  padding: 8px 16px;
+  list-style: none;
+  background-color: var(--Blanco);
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
 }
 
-ul.MigaPan li a.active {
-    color:var(--Clarito);
-    font-weight: bold;
+.MigaPan_item {
+  display: inline-block;
 }
-ul.MigaPan li a.active:hover {
-    color: var(--Clarito);
-    font-weight: bold;
+
+.MigaPan_link:before {
+  padding: 8px;
+  color: var(--Negro);
+  content: "/\00a0";
+}
+
+.MigaPan_link,
+.MigaPan_link:visited {
+  text-decoration: none;
+  color: var(--Negro);
+}
+
+.MigaPan_link--active {
+  color: var(--Clarito);
+  font-weight: bold;
+}
+
+.MigaPan_link--active:hover {
+  color: var(--Clarito);
+  font-weight: bold;
 }

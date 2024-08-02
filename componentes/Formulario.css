@@ -1,0 +1,19 @@
+.form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form__group {
+  margin-bottom: 15px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
