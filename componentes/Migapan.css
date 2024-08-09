@@ -1,34 +1,52 @@
-.MigaPan {
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto; 
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.5);
+  padding: 20px; 
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+}
+
+.breadcrumb {
   padding: 8px 16px;
   list-style: none;
   background-color: var(--Blanco);
-  margin: 0 auto;
+  margin: 0;
   width: 500px;
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
-.MigaPan_item {
+.breadcrumb__item {
   display: inline-block;
 }
 
-.MigaPan_link:before {
-  padding: 8px;
+.breadcrumb__link:before {
+  padding: 0 8px;
   color: var(--Negro);
   content: "/\00a0";
 }
 
-.MigaPan_link,
-.MigaPan_link:visited {
+.breadcrumb__link:first-child:before {
+  content: "";
+}
+
+.breadcrumb__link,
+.breadcrumb__link:visited {
   text-decoration: none;
   color: var(--Negro);
 }
 
-.MigaPan_link--active {
+.breadcrumb__link--active {
   color: var(--Clarito);
   font-weight: bold;
 }
 
-.MigaPan_link--active:hover {
+.breadcrumb__link--active:hover {
   color: var(--Clarito);
   font-weight: bold;
 }
