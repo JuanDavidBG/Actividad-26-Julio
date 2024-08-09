@@ -26,5 +26,5 @@
 }
 
 .pagina_link:hover:not(.pagination_link--active) {
-  background-color: var(--Blanco);
+  background-color: var(--Clarito);
 }
